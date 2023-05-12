@@ -14,5 +14,6 @@ public class Controller {
 
     public void sendMessage(ActionEvent actionEvent) {
         mainTextArea.appendText(mainTextField.getText() + "\n");
+        mainTextField.clear();
     }
 }
