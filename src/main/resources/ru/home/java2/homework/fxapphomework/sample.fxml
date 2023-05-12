@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.home.java2.homework.fxapphomework.Controller">
+    <TextArea fx:id="mainTextArea" editable="false" VBox.vgrow="ALWAYS">
+        <font>
+            <Font name="Times New Roman" size="14.0" />
+        </font>
+    </TextArea>
+    <HBox>
+        <TextField fx:id="mainTextField" onAction="#sendMessage" HBox.hgrow="ALWAYS" />
+        <Button onAction="#sendMessage" text="Send" textAlignment="CENTER">
+            <font>
+                <Font name="Times New Roman Bold" size="14.0" />
+            </font>
+        </Button>
+    </HBox>
+</VBox>
